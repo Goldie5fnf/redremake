@@ -143,11 +143,11 @@ class Character extends FlxSprite
 				// red nutsss
 				tex = Paths.getSparrowAtlas('characters/red', 'shared');
 				frames = tex;
-				animation.addByPrefix('idle', 'red_idle', 24);
-				animation.addByPrefix('singUP', 'red_up', 24);
-				animation.addByPrefix('singRIGHT', 'red_right', 24);
-				animation.addByPrefix('singDOWN', 'red_down', 24);
-				animation.addByPrefix('singLEFT', 'red_left', 24);
+				animation.addByPrefix('idle', 'red_idle', 24, true);
+				animation.addByPrefix('singUP', 'red_up', 24, false);
+				animation.addByPrefix('singRIGHT', 'red_right', 24, false);
+				animation.addByPrefix('singDOWN', 'red_down', 24, false);
+				animation.addByPrefix('singLEFT', 'red_left', 24, false);
 
 				addOffset('idle');
 				addOffset("singUP", -6, 50);
