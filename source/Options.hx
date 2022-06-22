@@ -73,7 +73,7 @@ class Option
 }
 
 
-class MobileC extends Option
+class MobileCOption extends Option
 {
 	public function new(desc:String)
 	{
