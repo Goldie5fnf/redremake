@@ -176,6 +176,7 @@ class PlayState extends MusicBeatState
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	
 	var eyes:FlxSprite;
+        var eyes1:FlxSprite;
 
 	var talking:Bool = true;
 	var songScore:Int = 0;
@@ -362,6 +363,11 @@ class PlayState extends MusicBeatState
 					eyes.animation.addByPrefix('idle', 'darkbg', 24, false);
 					eyes.antialiasing = true;
 					add(eyes);
+					eyes1 = new FlxSprite(-200, -100);
+					eyes1.frames = Paths.getSparrowAtlas('eyesiamge/eyes','red');
+					eyes1.animation.addByPrefix('idle', 'eyes animation', 24, false);
+					eyes1.antialiasing = true;
+					add(eyes1);
 			}
 			case 'halloween': 
 			{
