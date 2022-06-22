@@ -16,7 +16,7 @@ class Highscore
 		var daSong:String = formatSong(song, diff);
 
 
-		#if !switch
+		#if newgrounds
 		NGio.postScore(score, song);
 		#end
 
