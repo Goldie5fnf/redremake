@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfPortraithd.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf Portrait Enter hd0000" x="0" y="0" width="373" height="295" pivotX="348.75" pivotY="-343.15" frameX="-87" frameY="0" frameWidth="160" frameHeight="95"/>
+	<SubTexture name="bf Portrait Enter hd0001" x="373" y="0" width="373" height="295" frameX="-58" frameY="0" frameWidth="460" frameHeight="295"/>
+	<SubTexture name="bf Portrait Enter hd0002" x="0" y="295" width="373" height="295" frameX="-29" frameY="0" frameWidth="460" frameHeight="295"/>
+	<SubTexture name="bf Portrait Enter hd0003" x="373" y="295" width="372" height="295" frameX="0" frameY="0" frameWidth="460" frameHeight="295"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="redportrait.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Red Portrait Enter0000" x="0" y="0" width="366" height="377" pivotX="365.5" pivotY="-151.6" frameX="0" frameY="0" frameWidth="950" frameHeight="277"/>
+	<SubTexture name="Red Portrait Enter0001" x="0" y="377" width="365" height="376" frameX="-12" frameY="0" frameWidth="412" frameHeight="377"/>
+	<SubTexture name="Red Portrait Enter0002" x="0" y="753" width="366" height="376" frameX="-23" frameY="0" frameWidth="412" frameHeight="377"/>
+	<SubTexture name="Red Portrait Enter0003" x="0" y="1129" width="365" height="376" frameX="-35" frameY="0" frameWidth="412" frameHeight="377"/>
+	<SubTexture name="Red Portrait Enter0004" x="0" y="1505" width="366" height="377" frameX="-46" frameY="0" frameWidth="412" frameHeight="377"/>
+</TextureAtlas>

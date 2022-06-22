@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgeyes.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="darkbg0000" x="0" y="0" width="3278" height="2207" pivotX="41.6" pivotY="9.05" frameX="-17" frameY="-9" frameWidth="3295" frameHeight="2216"/>
+</TextureAtlas>
