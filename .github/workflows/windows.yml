@@ -30,6 +30,7 @@ jobs:
           RefreshEnv
           haxelib install openfl
           haxelib install flixel
+          haxelib install newgrounds
           haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
