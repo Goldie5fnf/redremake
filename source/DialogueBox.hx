@@ -47,13 +47,13 @@ class DialogueBox extends FlxSpriteGroup
 				FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 			case 'examination':
-				FlxG.sound.playMusic(Paths.music('menacingencounter'), 0);
+				FlxG.sound.playMusic(Paths.music('menacingencounter', 'red'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 			case 'summing-up':
-				FlxG.sound.playMusic(Paths.music('menacingencounter'), 0);
+				FlxG.sound.playMusic(Paths.music('menacingencounter', 'red'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 			case 'the-real-deal':
-				FlxG.sound.playMusic(Paths.music('menacingencounter'), 0);
+				FlxG.sound.playMusic(Paths.music('menacingencounter', 'red'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 		}
 
@@ -96,6 +96,21 @@ class DialogueBox extends FlxSpriteGroup
 				var face:FlxSprite = new FlxSprite(320, 170).loadGraphic(Paths.image('weeb/spiritFaceForward'));
 				face.setGraphicSize(Std.int(face.width * 6));
 				add(face);
+				case 'examination':
+				hasDialog = true;
+				box.frames = Paths.getSparrowAtlas('dialoguenopixe', 'red');
+				box.animation.addByPrefix('normalOpen', 'animdialogmove', 24, false);
+				box.animation.addByIndices('normal', 'animdialogmove', [4], "", 24);
+				case 'the-real-deal':
+				hasDialog = true;
+				box.frames = Paths.getSparrowAtlas('dialoguenopixe', 'red');
+				box.animation.addByPrefix('normalOpen', 'animdialogmove', 24, false);
+				box.animation.addByIndices('normal', 'animdialogmove', [4], "", 24);
+				case 'summing-up':
+				hasDialog = true;
+				box.frames = Paths.getSparrowAtlas('dialoguenopixe', 'red');
+				box.animation.addByPrefix('normalOpen', 'animdialogmove', 24, false);
+				box.animation.addByIndices('normal', 'animdialogmove', [4], "", 24);
 		}
 
 		this.dialogueList = dialogueList;
