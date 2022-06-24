@@ -56,6 +56,7 @@ import openfl.filters.ShaderFilter;
 #if mobileC
 import ui.Mobilecontrols;
 #end
+import Config;
 
 #if windows
 import Discord.DiscordClient;
